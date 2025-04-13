@@ -1,4 +1,4 @@
-## Demo - demonstrates an application and tests (haaaa)
+## Demo - demonstrates an application and tests (haaa)
 
 This is an application by [Coveros](https://www.coveros.com/) to demonstrate good
 software practices.  As we say in agile... _Working software over comprehensive 
