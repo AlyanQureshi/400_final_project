@@ -36,7 +36,7 @@ pipeline {
         PATH = "${JAVA_HOME}/bin:${PATH}"
       }
       steps {
-        sh './gradlew clean assemble'
+        sh './gradlew clean assemble' // fixed issue with build. Transtioned from code space to local vs code for more storage
       }
     }
 
