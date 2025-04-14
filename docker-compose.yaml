@@ -17,7 +17,6 @@ services:
 
   sonarqube:
     image: sonarqube:8.9-community
-    platform: linux/amd64 
     container_name: sonarqube
     environment:
       - SONARQUBE_JDBC_URL=jdbc:postgresql://db:5432/sonar
@@ -32,7 +31,6 @@ services:
 
   db:
     image: postgres:latest
-    platform: linux/amd64 
     container_name: sonar-db
     environment:
       - POSTGRES_USER=sonar
